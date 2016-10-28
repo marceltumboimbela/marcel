@@ -112,7 +112,7 @@ class App extends Component {
                     </div>
                     <div className="details">
                         <p>Responsible in developing mobile web application using React JS framework. Currently I am building desktop web application using React JS framework to replace current one.</p>
-                        <p>Sepulsa is Indonesia leading technology company which provides a web application to purchase credit for mobile phone services, electricity, and national health insurance.</p>
+                        <p>Sepulsa is Indonesia leading technology company which provides a web application to purchase credit for mobile phone services, electricity, and Healthcare/Social Security Agency.</p>
                     </div>
                 </div>
 
