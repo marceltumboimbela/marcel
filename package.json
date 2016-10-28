@@ -19,5 +19,5 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://marceltumboimbela.github.io/CV"
+  "homepage": "http://marceltumboimbela.github.io/marcel"
 }
