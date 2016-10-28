@@ -175,9 +175,9 @@ class App extends Component {
                 <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
                 <div className="skillset">
                     <div className="item">
-                        <h3 className="level-title">Visual Basic &amp; Microsoft Excel</h3>
+                        <h3 className="level-title">VBA &amp; Microsoft Excel</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="98%">
+                            <div className="level-bar-inner" data-level="95%">
                             </div>
                         </div>
                     </div>
