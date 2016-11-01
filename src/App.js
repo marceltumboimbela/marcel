@@ -177,7 +177,7 @@ class App extends Component {
                     <div className="item">
                         <h3 className="level-title">VBA &amp; Microsoft Excel</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="95%">
+                            <div className="level-bar-inner" data-level="90%">
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ class App extends Component {
                     <div className="item">
                         <h3 className="level-title">Javascript &amp; jQuery</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="90%">
+                            <div className="level-bar-inner" data-level="80%">
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ class App extends Component {
                     <div className="item">
                         <h3 className="level-title">React Javascript</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="80%">
+                            <div className="level-bar-inner" data-level="75%">
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@ class App extends Component {
                     <div className="item">
                         <h3 className="level-title">HTML5 &amp; CSS</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="85%">
+                            <div className="level-bar-inner" data-level="80%">
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ class App extends Component {
                     <div className="item">
                         <h3 className="level-title">PHP &amp; MySQL</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="87%">
+                            <div className="level-bar-inner" data-level="80%">
                             </div>
                         </div>
                     </div>
