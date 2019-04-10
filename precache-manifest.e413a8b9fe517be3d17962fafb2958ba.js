@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "32400f4e08932a94d8bfd2422702c446",
-    "url": "/marcel/static/media/fontawesome-webfont.32400f4e.eot"
+    "revision": "db812d8a70a4e88e888744c1c9a27e89",
+    "url": "/marcel/static/media/fontawesome-webfont.db812d8a.woff2"
   },
   {
-    "revision": "6e5e76db49d36597bc0c",
-    "url": "/marcel/static/css/main.9014a2fe.chunk.css"
+    "revision": "d833b1c673cd2bc8dcf0",
+    "url": "/marcel/static/css/main.39b7a201.chunk.css"
   },
   {
     "revision": "37d8927d407b71fc3afe",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/marcel/static/media/003cad1.8eebe3dc.jpg"
   },
   {
-    "revision": "6e5e76db49d36597bc0c",
+    "revision": "d833b1c673cd2bc8dcf0",
     "url": "/marcel/static/js/main.9926eaf8.chunk.js"
   },
   {
-    "revision": "db812d8a70a4e88e888744c1c9a27e89",
-    "url": "/marcel/static/media/fontawesome-webfont.db812d8a.woff2"
+    "revision": "32400f4e08932a94d8bfd2422702c446",
+    "url": "/marcel/static/media/fontawesome-webfont.32400f4e.eot"
   },
   {
     "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/marcel/static/media/fontawesome-webfont.f775f9cc.svg"
   },
   {
-    "revision": "3890dcc31ed9e03736d43aed3e906104",
+    "revision": "74326b73673367eaeca02882caa5a03c",
     "url": "/marcel/index.html"
   }
 ];
