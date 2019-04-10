@@ -1,34 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import photo from './003cad1.jpg'
 import './App.css';
 import './styles.css';
 import './plugins/font-awesome/css/font-awesome.css';
-import $ from 'jquery'
+import Velocity from 'velocity-animate';
 
 class App extends Component {
 
   componentDidMount() {
-    $('.level-bar-inner').css('width', '0');
-    //$(window).on('load', function() {
-    $(window).scroll(function(){
-       var hT = $('.level-bar-inner').offset().top,
-       hH = $('.level-bar-inner').outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop();
-       if (wS > (hT+hH-wH)){
-          $(window).off('scroll')
-          $('.level-bar-inner').each(function() {
-          var itemWidth = $(this).data('level');
-          $(this).animate({
-              width: itemWidth
-          }, 800);
-          });
-       }
+    document.querySelectorAll('.level-bar-inner').forEach(elem => {
+        elem.style.width = '0'
+    })
 
-
-    //});
-    });
+    document.addEventListener('scroll', function scroll(){
+        let elem = document.querySelector('.level-bar-inner');
+        let rect = elem.getBoundingClientRect();
+        let hT = rect.top + document.documentElement.scrollTop,
+        hH = elem.offsetHeight,
+        wH = document.documentElement.clientHeight,
+        wS = document.documentElement.scrollTop;
+        if (wS > (hT+hH-wH)){
+            document.removeEventListener('scroll', scroll)
+            document.querySelectorAll('.level-bar-inner').forEach((elem) => {
+                let itemWidth = elem.dataset.level
+                Velocity(elem, {width: itemWidth},{duration: 800})
+            })
+        }
+    })
   }
 
   render() {
@@ -49,7 +47,7 @@ class App extends Component {
             <div className="contact-container container-block">
                 <ul className="list-unstyled contact-list">
                     <li className="email"><i className="fa fa-envelope"></i><a href="mailto: jonathan.marcel.t@gmail.com">jonathan.marcel.t@gmail.com</a></li>
-                    <li className="phone"><i className="fa fa-phone"></i><span >081220388540</span></li>
+                    <li className="phone"><i className="fa fa-phone"></i><span >08152334255</span></li>
                     {/*<li className="website"><i className="fa fa-globe"></i><a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">portfoliosite.com</a></li>*/}
                     <li className="linkedin"><i className="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/jonathan-marcel-t-965aa175" target="_blank">Jonathan Marcel T</a></li>
                     <li className="github"><i className="fa fa-github"></i><a href="http://www.github.com/marceltumboimbela" target="_blank">github.com/marceltumboimbela</a></li>
@@ -83,7 +81,7 @@ class App extends Component {
                 <h2 className="container-block-title">Interests</h2>
                 <ul className="list-unstyled interests-list">
                     <li>Playing piano</li>
-                    <li>Reading articles</li>
+                    <li>Foreign languages</li>
                     <li>Computer programming</li>
                 </ul>
             </div>
@@ -95,7 +93,7 @@ class App extends Component {
             <section className="section summary-section">
                 <h2 className="section-title"><i className="fa fa-user"></i>About Me</h2>
                 <div className="summary">
-                    <p>Currently I am working as a software engineer in a startup company. I have 2 years experience developing web application (front-end and back-end) and 1 year work experience as a supply chain analyst.</p>
+                    <p>{`Currently I am working as a software engineer in a startup company. I have ${year - 2016} years experience developing web application (front-end and back-end) and 1 year work experience as a supply chain analyst.`}</p>
                 </div>
             </section>
 
@@ -106,12 +104,26 @@ class App extends Component {
                     <div className="meta">
                         <div className="upper-row">
                             <h3 className="job-title">Software Engineer</h3>
-                            <div className="time">April 2016 - Present</div>
+                            <div className="time">June 2018 - Present</div>
                         </div>
-                        <div className="company">PT Sepulsa Teknologi Indonesia | <a href='www.sepulsa.com'>www.sepulsa.com</a> </div>
+                        <div className="company"><a href='https://www.kmkonline.co.id/' target="_blank">KMK Online</a> </div>
                     </div>
                     <div className="details">
-                        <p>Responsible in developing mobile web application using React JS framework. Currently I am building desktop web application using React JS framework to replace current one.</p>
+                        <p>Responsible in developing BBM Desktop Web Application using React JS, and enhancing Vidio website using Ruby on Rails.</p>
+                        <p>KMK Online is digital arm of EMTEK Group. It owns and invests in several digital companies. Its main portfolio are Vidio and Consumer BBM.</p>
+                    </div>
+                </div>
+
+                <div className="item">
+                    <div className="meta">
+                        <div className="upper-row">
+                            <h3 className="job-title">Software Engineer</h3>
+                            <div className="time">April 2016 - May 2018</div>
+                        </div>
+                        <div className="company">Sepulsa Teknologi Indonesia | <a href='https://www.sepulsa.com' target="_blank">www.sepulsa.com</a> </div>
+                    </div>
+                    <div className="details">
+                        <p>Responsible in developing desktop and mobile web application using React JS framework.</p>
                         <p>Sepulsa is Indonesia leading technology company which provides a web application to purchase credit for mobile phone services, electricity, and Healthcare/Social Security Agency.</p>
                     </div>
                 </div>
@@ -138,7 +150,7 @@ class App extends Component {
                             <h3 className="job-title">Software Engineer</h3>
                             <div className="time">December 2011 - August 2012</div>
                         </div>
-                        <div className="company">PT Djarum</div>
+                        <div className="company"><a href="https://www.djarum.com" target="_blank">Djarum</a></div>
                     </div>
                     <div className="details">
                         <p>Developing new features for company internal web application using VB and Java programming language.</p>
@@ -158,7 +170,7 @@ class App extends Component {
                 </div>
                 <div className="item">
                     <span className="project-title">Phoenix</span> -
-                    <span className="project-tagline"> Sepulsa desktop application built with React JS Framework (on-going project).</span>
+                    <span className="project-tagline"> Sepulsa desktop application built with React JS Framework.</span>
                 </div>
                 <div className="item">
                     <span className="project-title">VMI</span> - <span className="project-tagline">Redesigned business process and inventory management of Danone Water Supply Planner Team.</span>
@@ -172,7 +184,7 @@ class App extends Component {
             </section>
 
             <section className="skills-section section">
-                <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency Level</h2>
                 <div className="skillset">
                     <div className="item">
                         <h3 className="level-title">VBA &amp; Microsoft Excel</h3>
@@ -183,7 +195,7 @@ class App extends Component {
                     </div>
 
                     <div className="item">
-                        <h3 className="level-title">Javascript &amp; jQuery</h3>
+                        <h3 className="level-title">Javascript</h3>
                         <div className="level-bar">
                             <div className="level-bar-inner" data-level="80%">
                             </div>
@@ -191,7 +203,7 @@ class App extends Component {
                     </div>
 
                     <div className="item">
-                        <h3 className="level-title">React Javascript</h3>
+                        <h3 className="level-title">React</h3>
                         <div className="level-bar">
                             <div className="level-bar-inner" data-level="75%">
                             </div>
@@ -207,9 +219,9 @@ class App extends Component {
                     </div>
 
                     <div className="item">
-                        <h3 className="level-title">PHP &amp; MySQL</h3>
+                        <h3 className="level-title">Ruby on Rails</h3>
                         <div className="level-bar">
-                            <div className="level-bar-inner" data-level="80%">
+                            <div className="level-bar-inner" data-level="60%">
                             </div>
                         </div>
                     </div>
