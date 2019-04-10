@@ -1,13 +1,15 @@
 {
-  "main.css": "static/css/main.6a41bfff.css",
-  "main.css.map": "static/css/main.6a41bfff.css.map",
-  "main.js": "static/js/main.55d2c49e.js",
-  "main.js.map": "static/js/main.55d2c49e.js.map",
-  "static/media/003cad1.jpg": "static/media/003cad1.8eebe3dc.jpg",
-  "static/media/fontawesome-webfont.eot?v=4.5.0": "static/media/fontawesome-webfont.32400f4e.eot",
-  "static/media/fontawesome-webfont.svg?v=4.5.0": "static/media/fontawesome-webfont.f775f9cc.svg",
-  "static/media/fontawesome-webfont.ttf?v=4.5.0": "static/media/fontawesome-webfont.a3de2170.ttf",
-  "static/media/fontawesome-webfont.woff2?v=4.5.0": "static/media/fontawesome-webfont.db812d8a.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.5.0": "static/media/fontawesome-webfont.a35720c2.woff",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "/marcel/static/css/main.7d77a254.chunk.css",
+  "main.js": "/marcel/static/js/main.2817d037.chunk.js",
+  "main.js.map": "/marcel/static/js/main.2817d037.chunk.js.map",
+  "runtime~main.js": "/marcel/static/js/runtime~main.cc870198.js",
+  "runtime~main.js.map": "/marcel/static/js/runtime~main.cc870198.js.map",
+  "static/js/2.242c46d0.chunk.js": "/marcel/static/js/2.242c46d0.chunk.js",
+  "static/js/2.242c46d0.chunk.js.map": "/marcel/static/js/2.242c46d0.chunk.js.map",
+  "index.html": "/marcel/index.html",
+  "precache-manifest.8a39efc22eac6f9f7b041fcccc4155d2.js": "/marcel/precache-manifest.8a39efc22eac6f9f7b041fcccc4155d2.js",
+  "service-worker.js": "/marcel/service-worker.js",
+  "static/css/main.7d77a254.chunk.css.map": "/marcel/static/css/main.7d77a254.chunk.css.map",
+  "static/media/003cad1.jpg": "/marcel/static/media/003cad1.8eebe3dc.jpg",
+  "static/media/font-awesome.css": "/marcel/static/media/fontawesome-webfont.f775f9cc.svg"
 }
