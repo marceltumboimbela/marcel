@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "db812d8a70a4e88e888744c1c9a27e89",
-    "url": "/marcel/static/media/fontawesome-webfont.db812d8a.woff2"
+    "revision": "32400f4e08932a94d8bfd2422702c446",
+    "url": "/marcel/static/media/fontawesome-webfont.32400f4e.eot"
   },
   {
-    "revision": "abaed7317ac52d4462d9",
-    "url": "/marcel/static/css/main.7d77a254.chunk.css"
+    "revision": "6e5e76db49d36597bc0c",
+    "url": "/marcel/static/css/main.9014a2fe.chunk.css"
   },
   {
     "revision": "37d8927d407b71fc3afe",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/marcel/static/media/003cad1.8eebe3dc.jpg"
   },
   {
-    "revision": "abaed7317ac52d4462d9",
-    "url": "/marcel/static/js/main.2817d037.chunk.js"
+    "revision": "6e5e76db49d36597bc0c",
+    "url": "/marcel/static/js/main.9926eaf8.chunk.js"
   },
   {
-    "revision": "32400f4e08932a94d8bfd2422702c446",
-    "url": "/marcel/static/media/fontawesome-webfont.32400f4e.eot"
+    "revision": "db812d8a70a4e88e888744c1c9a27e89",
+    "url": "/marcel/static/media/fontawesome-webfont.db812d8a.woff2"
   },
   {
     "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/marcel/static/media/fontawesome-webfont.f775f9cc.svg"
   },
   {
-    "revision": "c5974746e25dc76d1ae8399ca089f402",
+    "revision": "3890dcc31ed9e03736d43aed3e906104",
     "url": "/marcel/index.html"
   }
 ];

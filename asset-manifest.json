@@ -1,15 +1,15 @@
 {
-  "main.css": "/marcel/static/css/main.7d77a254.chunk.css",
-  "main.js": "/marcel/static/js/main.2817d037.chunk.js",
-  "main.js.map": "/marcel/static/js/main.2817d037.chunk.js.map",
+  "main.css": "/marcel/static/css/main.9014a2fe.chunk.css",
+  "main.js": "/marcel/static/js/main.9926eaf8.chunk.js",
+  "main.js.map": "/marcel/static/js/main.9926eaf8.chunk.js.map",
   "runtime~main.js": "/marcel/static/js/runtime~main.cc870198.js",
   "runtime~main.js.map": "/marcel/static/js/runtime~main.cc870198.js.map",
   "static/js/2.242c46d0.chunk.js": "/marcel/static/js/2.242c46d0.chunk.js",
   "static/js/2.242c46d0.chunk.js.map": "/marcel/static/js/2.242c46d0.chunk.js.map",
   "index.html": "/marcel/index.html",
-  "precache-manifest.8a39efc22eac6f9f7b041fcccc4155d2.js": "/marcel/precache-manifest.8a39efc22eac6f9f7b041fcccc4155d2.js",
+  "precache-manifest.bbd25e80f1d5f11f489dbd0d6ebfa5e1.js": "/marcel/precache-manifest.bbd25e80f1d5f11f489dbd0d6ebfa5e1.js",
   "service-worker.js": "/marcel/service-worker.js",
-  "static/css/main.7d77a254.chunk.css.map": "/marcel/static/css/main.7d77a254.chunk.css.map",
+  "static/css/main.9014a2fe.chunk.css.map": "/marcel/static/css/main.9014a2fe.chunk.css.map",
   "static/media/003cad1.jpg": "/marcel/static/media/003cad1.8eebe3dc.jpg",
   "static/media/font-awesome.css": "/marcel/static/media/fontawesome-webfont.f775f9cc.svg"
 }
