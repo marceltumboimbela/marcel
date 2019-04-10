@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "db812d8a70a4e88e888744c1c9a27e89",
-    "url": "/marcel/static/media/fontawesome-webfont.db812d8a.woff2"
+    "revision": "32400f4e08932a94d8bfd2422702c446",
+    "url": "/marcel/static/media/fontawesome-webfont.32400f4e.eot"
   },
   {
     "revision": "d833b1c673cd2bc8dcf0",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/marcel/static/js/main.9926eaf8.chunk.js"
   },
   {
-    "revision": "32400f4e08932a94d8bfd2422702c446",
-    "url": "/marcel/static/media/fontawesome-webfont.32400f4e.eot"
+    "revision": "db812d8a70a4e88e888744c1c9a27e89",
+    "url": "/marcel/static/media/fontawesome-webfont.db812d8a.woff2"
   },
   {
     "revision": "a35720c2fed2c7f043bc7e4ffb45e073",
