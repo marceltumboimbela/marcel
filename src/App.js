@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import photo from './003cad1.jpg'
 import './App.css';
-import './styles.css';
+import './styles.scss';
 import './plugins/font-awesome/css/font-awesome.css';
 import Velocity from 'velocity-animate';
 
