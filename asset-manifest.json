@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/marcel/static/css/main.abcd55a7.chunk.css",
+    "main.js": "/marcel/static/js/main.309baca6.chunk.js",
+    "main.js.map": "/marcel/static/js/main.309baca6.chunk.js.map",
+    "runtime-main.js": "/marcel/static/js/runtime-main.73b65ceb.js",
+    "runtime-main.js.map": "/marcel/static/js/runtime-main.73b65ceb.js.map",
+    "static/js/2.f8b58a0b.chunk.js": "/marcel/static/js/2.f8b58a0b.chunk.js",
+    "static/js/2.f8b58a0b.chunk.js.map": "/marcel/static/js/2.f8b58a0b.chunk.js.map",
+    "index.html": "/marcel/index.html",
+    "static/css/main.abcd55a7.chunk.css.map": "/marcel/static/css/main.abcd55a7.chunk.css.map",
+    "static/js/2.f8b58a0b.chunk.js.LICENSE.txt": "/marcel/static/js/2.f8b58a0b.chunk.js.LICENSE.txt",
+    "static/media/003cad1.161cc2fc.jpg": "/marcel/static/media/003cad1.161cc2fc.jpg",
+    "static/media/font-awesome.css": "/marcel/static/media/fontawesome-webfont.bfcf94e0.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73b65ceb.js",
+    "static/js/2.f8b58a0b.chunk.js",
+    "static/css/main.abcd55a7.chunk.css",
+    "static/js/main.309baca6.chunk.js"
+  ]
+}
