@@ -74,6 +74,7 @@ class App extends Component {
                     <li>Indonesian <span className="lang-desc">(Native)</span></li>
                     <li>English <span className="lang-desc">(Professional)</span></li>
                     <li>Mandarin <span className="lang-desc">(Basic)</span></li>
+                    <li>French <span className="lang-desc">(Basic)</span></li>
                 </ul>
             </div>
 
@@ -93,7 +94,7 @@ class App extends Component {
             <section className="section summary-section">
                 <h2 className="section-title"><i className="fa fa-user"></i>About Me</h2>
                 <div className="summary">
-                    <p>{`Currently I am working as a software engineer in a startup company. I have ${year - 2016} years experience developing web application (front-end and back-end) and 1 year work experience as a supply chain analyst.`}</p>
+                    <p>{`Currently I am working as a software engineer in a over-the-top content platform company. I have ${year - 2016} years experience developing web application (front-end and back-end) and 1 year work experience as a supply chain analyst.`}</p>
                 </div>
             </section>
 
@@ -109,7 +110,10 @@ class App extends Component {
                         <div className="company"><a href='https://www.kmkonline.co.id/' target="_blank">KMK Online</a> </div>
                     </div>
                     <div className="details">
-                        <p>Responsible in developing BBM Desktop Web Application using React JS, and enhancing Vidio website using Ruby on Rails.</p>
+                        <li>Developing BBM desktop web application using React JS framework.</li>
+                        <li>Developing Vidio desktop and mobile web application using Ruby on Rails.</li>
+                        <li>Practicing pair programming and test driven development.</li>
+                        <br/>
                         <p>KMK Online is digital arm of EMTEK Group. It owns and invests in several digital companies. Its main portfolio are Vidio and Consumer BBM.</p>
                     </div>
                 </div>
@@ -123,7 +127,8 @@ class App extends Component {
                         <div className="company">Sepulsa Teknologi Indonesia | <a href='https://www.sepulsa.com' target="_blank">www.sepulsa.com</a> </div>
                     </div>
                     <div className="details">
-                        <p>Responsible in developing desktop and mobile web application using React JS framework.</p>
+                        <li>Developing desktop and mobile web application using React JS framework.</li>
+                        <br/>
                         <p>Sepulsa is Indonesia leading technology company which provides a web application to purchase credit for mobile phone services, electricity, and Healthcare/Social Security Agency.</p>
                     </div>
                 </div>
@@ -159,11 +164,11 @@ class App extends Component {
 
             </section>
 
-            <section className="section projects-section">
+            {/* <section className="section projects-section">
                 <h2 className="section-title"><i className="fa fa-archive"></i>Projects</h2>
-                {/*<div className="intro">
+                <div className="intro">
                     <p></p>
-                </div>*/}
+                </div>
                 <div className="item">
                     <span className="project-title"><a href = "http://m.sepulsa.com" target="_blank">Frigate</a></span> - <span className="project-tagline">Sepulsa single page mobile web application built with React JS Framework.</span>
 
@@ -181,7 +186,7 @@ class App extends Component {
                 <div className="item">
                     <span className="project-title">DSS</span> - <span className="project-tagline">Decision Support System to help PT Krakatau Steel top management built with PHP Yii Framework.</span>
                 </div>
-            </section>
+            </section> */}
 
             <section className="skills-section section">
                 <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency Level</h2>

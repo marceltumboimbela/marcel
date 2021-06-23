@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@babel/helper-regex": "^7.10.5",
     "gh-pages": "^2.0.1",
-    "react-scripts": "2.1.8"
+    "react-scripts": "4.0.3",
+    "sass-loader": "^12.1.0"
   },
   "dependencies": {
-    "node-sass": "^4.11.0",
+    "@babel/helper-builder-react-jsx": "^7.14.5",
+    "node-sass": "4.14.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.6",
