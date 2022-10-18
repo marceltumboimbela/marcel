@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marcel/static/css/main.b60f669c.css",
-    "main.js": "/marcel/static/js/main.18928e53.js",
+    "main.css": "/marcel/static/css/main.3b10fb96.css",
+    "main.js": "/marcel/static/js/main.eab94b9d.js",
     "static/media/fontawesome-webfont.svg?v=4.5.0": "/marcel/static/media/fontawesome-webfont.3fe9d36ed88cf3aeea1f.svg",
     "static/media/fontawesome-webfont.ttf?v=4.5.0": "/marcel/static/media/fontawesome-webfont.bfcf94e00816b7cfccc7.ttf",
     "static/media/fontawesome-webfont.woff?v=4.5.0": "/marcel/static/media/fontawesome-webfont.b09f4960e5ffa8e0ef92.woff",
@@ -9,11 +9,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.5.0": "/marcel/static/media/fontawesome-webfont.af6df524c7d052f637e3.woff2",
     "static/media/003cad1.jpg": "/marcel/static/media/003cad1.161cc2fc053217ef2185.jpg",
     "index.html": "/marcel/index.html",
-    "main.b60f669c.css.map": "/marcel/static/css/main.b60f669c.css.map",
-    "main.18928e53.js.map": "/marcel/static/js/main.18928e53.js.map"
+    "main.3b10fb96.css.map": "/marcel/static/css/main.3b10fb96.css.map",
+    "main.eab94b9d.js.map": "/marcel/static/js/main.eab94b9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b60f669c.css",
-    "static/js/main.18928e53.js"
+    "static/css/main.3b10fb96.css",
+    "static/js/main.eab94b9d.js"
   ]
 }
