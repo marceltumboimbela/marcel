@@ -9,21 +9,27 @@ class App extends Component {
       elem.style.width = "0";
     });
 
-    document.addEventListener("scroll", function scroll() {
-      let elem = document.querySelector(".level-bar-inner");
-      let rect = elem.getBoundingClientRect();
-      let hT = rect.top + document.documentElement.scrollTop,
-        hH = elem.offsetHeight,
-        wH = document.documentElement.clientHeight,
-        wS = document.documentElement.scrollTop;
-      if (wS > hT + hH - wH) {
-        document.removeEventListener("scroll", scroll);
-        document.querySelectorAll(".level-bar-inner").forEach((elem) => {
-          let itemWidth = elem.dataset.level;
-          Velocity(elem, { width: itemWidth }, { duration: 800 });
-        });
-      }
-    });
+    document.addEventListener("scroll", this.setLevelBarWidth.bind(this));
+
+    this.setLevelBarWidth();
+  }
+
+  isElementInViewport(element) {
+    let rect = element.getBoundingClientRect();
+    if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+      return true;
+    }
+    return false;
+  }
+
+  setLevelBarWidth() {
+    let elem = document.querySelector(".level-bar-inner");
+    if (this.isElementInViewport(elem) && elem.style.width == "0px") {
+      document.querySelectorAll(".level-bar-inner").forEach((elem) => {
+        let itemWidth = elem.dataset.level;
+        Velocity(elem, { width: itemWidth }, { duration: 800 });
+      });
+    }
   }
 
   render() {
